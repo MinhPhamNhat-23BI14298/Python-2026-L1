@@ -2,7 +2,6 @@ import zipfile
 import sys
 import codecs
 
-# Write info students mark management after finishing input
 class Input:
   def __init__(self, stName="", stId="", stDob="", courses=""):
     self.stName = stName
@@ -36,22 +35,22 @@ class Input:
   def writeFile(self, st):
     for i in st:
       with open("students.txt", "a+", encoding='utf-8') as f1:
-        f1.write("Name: "+i.stName+'\\n')
-        f1.write("ID: "+i.stId+'\\n')
-        f1.write("Date of birth: "+i.stDob+'\\n')
-        f1.write("----------------------------\\n")
+        f1.write("Name: "+i.stName+'\n')
+        f1.write("ID: "+i.stId+'\n')
+        f1.write("Date of birth: "+i.stDob+'\n')
+        f1.write("----------------------------\n")
 
       with open('courses.txt', 'a+', encoding='utf-8') as f2:
-        f2.write('Name: '+i.stName+'\\n')
+        f2.write('Name: '+i.stName+'\n')
         for j in i.courses:
-          f2.write('Courses: '+j[0]+'\\n')
-          f2.write('-------------------\\n')
+          f2.write('Courses: '+j[0]+'\n')
+        f2.write('-------------------\n')
 
       with open('marks.txt', 'a+', encoding='utf-8') as f3:
-        f3.write('Name: '+i.stName+'\\n')
+        f3.write('Name: '+i.stName+'\n')
         for j in i.courses:
-          f3.write(f'{j[0]}:'+j[1]+'\\n')
-          f3.write('------------------\\n')
+          f3.write(f'{j[0]}:'+j[1]+'\n')
+        f3.write('------------------\n')
     f1.close()
     f2.close()
     f3.close()
