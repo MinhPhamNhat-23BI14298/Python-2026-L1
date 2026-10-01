@@ -1,0 +1,1 @@
+Name: Pham Nhat Minh\nID: 23BI14298\nDate of birth: 12/10/2005\n----------------------------\nName: Vladimir Putin\nID: 23BA14404\nDate of birth: 25/09/2004\n----------------------------\nName: Xi Jinping\nID: 23BI14266\nDate of birth: 21/04/2005\n----------------------------\n
