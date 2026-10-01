@@ -1,1 +1,15 @@
-Name: Pham Nhat Minh\nCourses: Operating System\n-------------------\nCourses: French Language\n-------------------\nCourses: Numerical Methods\n-------------------\nName: Vladimir Putin\nCourses: Operating System\n-------------------\nCourses: French Language\n-------------------\nCourses: Numerical Methods\n-------------------\nName: Xi Jinping\nCourses: Operating System\n-------------------\nCourses: French Language\n-------------------\nCourses: Numerical Methods\n-------------------\n
+Name: Pham Nhat Minh
+Courses: Operating System
+Courses: French Language
+Courses: Numerical Methods
+-------------------
+Name: Vladimir Putin
+Courses: Operating System
+Courses: French Language
+Courses: Numerical Methods
+-------------------
+Name: Xi Jinping
+Courses: Operating System
+Courses: French Language
+Courses: Numerical Methods
+-------------------
